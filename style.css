@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+
+    background-color:rgb(230, 230, 230);
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image :linear-gradient(rgba(12, 12, 12, 0.7),rgba(12, 12, 12, 0.7)),url(ro3.jpeg);
+    background-size:cover;
+    background-position:center;
+    padding-left:5%;
+    padding-right:5%;
+    box-sizing:border-box;
+    
+}
+
+.navbar{
+    height:12%;
+    display:flex;
+    align-items:center;
+}
+.logo{
+    width:150px;
+    height:75x;
+    cursor:pointer;
+}
+.menu-icon{
+    width:50px;
+    cursor:pointer;
+    margin-left:40px;
+}
+nav{
+    flex:1;
+    text-align:right;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:100px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:25px;
+}
+
+
+.effect{
+    position:relative;
+    text-decoration : none;
+}
+.effect::after{
+    border-radius:50%;
+    border-top: .1em solid rgb(0, 255, 234);
+    content: "";
+    position:absolute;
+    right:100%;
+    bottom: .005em;
+    left:0;
+    transition: right .2s ;
+}
+.effect:hover{
+    text-decoration:none;
+}
+.effect:hover::after{
+    right:0;
+}
+.row{
+    display:flex;
+    height:88%;
+    align-items:center;
+
+}
+.col{
+    
+    animation:text 2s 1;
+    flex:50%
+}
+@keyframes text{
+    0%{
+        color:black;
+        margin-bottom:-20px;
+    }
+    40%{
+        letter-spacing:10px;
+        margin-bottom:-20px;
+    }
+    70%{
+        letter-spacing:5px;
+        margin-bottom:-20px;
+    }
+}
+h1{
+    color:white;
+    font-size:100px;
+   
+}
+h2{
+    color:white;
+    font-size:30px;
+   
+}
+
+.aboutus{
+    display:flex;
+    align-items:center;
+    width:100%;
+    height:80%;
+    color:white;
+}
+
+.aboutus1{
+    display:flex;
+    align-items:center;
+    width:100%;
+    height:80%;
+    color:rgb(255, 255, 255);
+}
+.bigdiv{
+   background-image:linear-gradient(rgba(114, 114, 114, 0.7),rgba(114, 114, 114, 0.7)),url(b3.jpeg);
+    background-size:cover;
+    background-position:center;
+}
+.card{
+    width:350px;
+    height:350px;
+    display:inline-block;
+    border-radius:10px;
+    padding:30px;
+    box-sizing:border-box;
+    cursor:pointer;
+    background-position:fill;
+    background-size:cover;
+    transition :transform 0.5s;
+    text-align:justify;
+  
+}
+.card1{
+    margin-left:260px;
+    margin-right:100px;
+    background-image:url(uday2.jpg);
+    background-position:center;
+    text-align:center;
+    
+}
+.card2{
+    margin-left:140px;
+    margin-right:200px;
+    background-image:url(pruthvi.jpeg);
+    
+}
+.card3{
+    margin-left:260px;
+    margin-right:100px;
+    background-image:url(hari.jpg);
+    background-position:center;
+    
+   
+}
+.card4{
+    margin-left:140px;
+    margin-right:200px;
+    background-image:url(pranaya.jpeg);
+    background-position:center;
+}
+.card:hover{
+    transform:translate(-10px);
+}
+#uday{
+    color:black;
+}
+h5{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight:bolder;
+}
+.footer {
+    color: #000000e5;
+    text-align: center;
+    background-image:url(footer.jpeg);
+    background-size:cover;
+    font-size:15px;
+    height:20%;
+  }
+  #footer{
+      position:relative;
+      top:30%;
+  }
+.Info{
+    background-color:rgb(230, 230, 230);
+    height:100%;
+    width:100%;
+    text-align:center;
+}
+.heading{
+    color:black;
+    font-size:50px;
+}
+.div1{
+    margin-top:70px;
+}
+.div2{
+    color:rgb(0, 0, 0);
+    margin-top:50px;
+    font-size:25px;
+    
+}
+
+.title1{
+    text-align:center;
+    font-size:40px;
+}
